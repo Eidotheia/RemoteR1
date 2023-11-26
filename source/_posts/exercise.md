@@ -15,6 +15,7 @@ $$
 G=\langle g_1,\ldots,g_n\rangle.
 $$
 Let $s_k$ be the order of $g_k$ for $k=1,2,\ldots,n$. Then
+
 $$
 \begin{align}
 \sum_{g\in G}\chi(g)&=\sum_{\substack{(\alpha_1,\ldots,\alpha_n) \\ 0\leq\alpha_k\leq s_k-1}}\prod_{k=1}^n{\chi(g_k)}^{\alpha_k}\\
@@ -23,6 +24,7 @@ $$
 &=0.\\
 \end{align}
 $$
+
 $\color{skyblue}{\square}$
 
 In particular, let $\zeta_n$ $(n\geq 2)$ be the primitive $n$-th root of unity, we have
