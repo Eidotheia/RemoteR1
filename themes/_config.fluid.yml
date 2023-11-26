@@ -16,6 +16,9 @@
 # Global
 #---------------------------
 
+navbar:
+  blog_title: 博客标题
+
 # 用于浏览器标签的图标
 # Icon for browser tab
 favicon: /img/fluid.png
