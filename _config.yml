@@ -55,7 +55,7 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
-  markdown:
+markdown:
   plugins:
     - "@traptitech/markdown-it-katex"
 
