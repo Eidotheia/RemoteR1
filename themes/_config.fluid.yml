@@ -16,9 +16,6 @@
 # Global
 #---------------------------
 
-navbar:
-  blog_title: "Evelyn Chieh's blog"
-
 # 用于浏览器标签的图标
 # Icon for browser tab
 favicon: /img/fluid.png
@@ -33,7 +30,7 @@ tab_title_separator: " - "
 
 # 强制所有链接升级为 HTTPS（适用于图片等资源出现 HTTP 混入报错）
 # Force all links to be HTTPS (applicable to HTTP mixed error)
-force_https: true
+force_https: false
 
 # 代码块的增强配置
 # Enhancements to code blocks
@@ -325,7 +322,7 @@ iconfont: //at.alicdn.com/t/font_1736178_lbnruvf0jn.css
 navbar:
   # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
   # The title on the left side of the navigation bar. If empty, it is based on `title` in hexo config
-  blog_title: ''
+  blog_title: "Fluid"
 
   # 导航栏毛玻璃特效，实验性功能，可能会造成页面滚动掉帧和抖动，部分浏览器不支持会自动不生效
   # Navigation bar frosted glass special animation. It is an experimental feature
@@ -464,7 +461,7 @@ index:
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 60
+  banner_img_height: 100
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -478,7 +475,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: ''
+    text: "An elegant Material-Design theme for Hexo"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -564,7 +561,7 @@ post:
     # 估计阅读全文需要的时长
     # Estimated reading time
     min2read:
-      enable: false
+      enable: true
       # 每个字词的长度，建议：中文≈2，英文≈5，中英混合可自行调节
       # Average word length (chars count in word), ZH ≈ 2, EN ≈ 5
       awl: 2
@@ -644,7 +641,7 @@ post:
   # 版权声明，会显示在每篇文章的结尾
   # Copyright, will be displayed at the end of each post
   copyright:
-    enable: false
+    enable: true
 
     # CreativeCommons license
     # Options: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND
@@ -697,14 +694,14 @@ post:
   math:
     # 开启后文章默认可用，自定义页面如需使用，需在 Front-matter 中指定 `math: true`
     # If you want to use math on the custom page, you need to set `math: true` in Front-matter
-    enable: true
+    enable: false
 
     # 开启后，只有在文章 Front-matter 里指定 `math: true` 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度
     # If true, only set `math: true` in Front-matter will enable math, to load faster when the page does not contain math
-    specific: true
+    specific: false
 
     # Options: mathjax | katex
-    engine: katex
+    engine: mathjax
 
   # 流程图，基于 mermaid-js，具体请见：https://hexo.fluid-dev.com/docs/guide/#mermaid-流程图
   # Flow chart, based on mermaid-js, see: https://hexo.fluid-dev.com/docs/en/guide/#mermaid
@@ -771,7 +768,7 @@ gitalk:
   repo:
   owner:
   admin: ['name']
-  language: en
+  language: zh-CN
   labels: ['Gitalk']
   perPage: 10
   pagerDirection: last
@@ -796,7 +793,7 @@ valine:
   meta: ['nick', 'mail', 'link']
   requiredFields: []
   pageSize: 10
-  lang: 'en'
+  lang: 'zh-CN'
   highlight: false
   recordIP: false
   serverURLs: ''
@@ -955,8 +952,8 @@ about:
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
-  name: "Evelyn Chieh's blog"
-  intro: "无物结同心，烟花不堪剪"
+  name: "Fluid"
+  intro: "An elegant theme for Hexo"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
