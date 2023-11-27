@@ -1,7 +1,7 @@
 ---
 title: A Little Note on Representation Theory
 date: 2023-7-10 13:42:58
-Categories: 
+categories: 
 - [Algebra]
 ---
 
