@@ -1,4 +1,8 @@
-# Uniqueness of Direct Sums in an Additive Category
+---
+title: Uniqueness of Direct Sums in an Additive Category
+date: 2023-7-23 10:21:00
+tags: Category Theory
+---
 
 $\color{skyblue}{\blacksquare}$ For any objects $X_1$, $X_2$ in an additive category $\mathcal{C}$, there exists an object $Y$ and morphisms $p_n:Y\to X_n$; $i_n:X_n\to Y$ $(n=1,2)$ such that $p_n i_n=1_{X_n}$ and $i_1 p_1+i_2 p_2=1_Y$. 
 
