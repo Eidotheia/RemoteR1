@@ -364,7 +364,7 @@ search:
   # 搜索的范围
   # Search field
   # Options: post | page | all
-  field: post
+  field: all
 
   # 搜索是否扫描正文
   # If true, search will scan the post content
@@ -660,7 +660,7 @@ post:
     # 显示更新日期
     # Show update date
     update_date:
-      enable: false
+      enable: true
       format: "LL"
 
   # 文章底部上一篇下一篇功能
@@ -720,11 +720,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: waline
 
 
 #---------------------------
@@ -751,7 +751,7 @@ utterances:
 # Based on third-party service
 # See: https://disqus.com
 disqus:
-  shortname:
+  shortname: 
   # 以下为 Disqusjs 支持, 国内用户如果想使用 Disqus 建议配合使用
   # The following are Disqusjs configurations, please ignore if DisqusJS is not required
   # See: https://github.com/SukkaW/DisqusJS
@@ -806,11 +806,11 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 waline:
-  serverURL: ''
+  serverURL: 'https://waline-first-ten.vercel.app'
   path: window.location.pathname
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']
-  lang: 'zh-CN'
+  lang: 'en'
   emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
   dark: 'html[data-user-color-scheme="dark"]'
   wordLimit: 0
