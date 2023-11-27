@@ -17,12 +17,12 @@ $$
 Let $s_k$ be the order of $g_k$ for $k=1,2,\ldots,n$. Then
 
 $$
-\begin{align*}
+\begin{align}
 \sum_{g\in G}\chi(g)&=\sum_{\substack{(\alpha_1,\ldots,\alpha_n) \\ 0\leq\alpha_k\leq s_k-1}}\prod_{k=1}^n{\chi(g_k)}^{\alpha_k}\\
 &=\prod_{k=1}^n\left(\sum_{\alpha_k=0}^{s_k-1} {\chi(g_k)}^{\alpha_k} \right)\\
 &=\prod_{k=1}^{n}\left(\frac{1-{\chi(g_k)}^{s_k}}{1-\chi(g_k)}\right)\\
 &=0.\\
-\end{align*}
+\end{align}
 $$
 
 $\color{skyblue}{\square}$
