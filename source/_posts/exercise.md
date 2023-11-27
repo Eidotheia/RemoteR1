@@ -1,5 +1,5 @@
 ---
-title: Little Notes on Representation Theory
+title: A Little Note on Representation Theory
 date: 2023-11-26 20:12:58
 tags:
 ---
