@@ -2,7 +2,8 @@
 title: Uniqueness of Direct Sums in an Additive Category
 date: 2023-7-23 10:21:00
 tags: 
-Category: Category Theory
+Categories: 
+- [Category Theory]
 ---
 
 
