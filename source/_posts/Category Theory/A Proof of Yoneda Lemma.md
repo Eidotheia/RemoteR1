@@ -22,7 +22,7 @@ Now consider the map $\phi:\mathrm{Nat}(\mathrm{Hom}(A,-),F)\to F(A)$ given by
 $$
 \phi (\lambda)=\lambda_A(1_A),
 $$
-this map is called the _Yoneda representative map_, while $\lambda_A(1_A)$ is the _Yoneda representative_ of $\lambda$. We prove that $\phi$ is an isomorphism. Denote by $f_A^{\leftarrow}$ the "follow by $f$" map $\mathrm{Hom}(A,f),$ it admits the formula
+this map is called the _Yoneda representative map_, while $\lambda_A(1_A)$ is the _Yoneda representative_ of $\lambda$. We prove that $\phi$ is an isomorphism. Denote by $f_A^{\leftarrow}$ the "follow by $f$" map $\mathrm{Hom}(A,f),$ it satisfies the formula
 $$
 f_A^{\leftarrow}(u)=f\circ u
 $$
@@ -46,7 +46,7 @@ follows that $\phi$ is surjective. All in all, $\phi$ is an bijection. We have t
 
 ___
 
-In a more modern language, we call a functor $F$ from the opposite category $\mathcal{C}^{\mathrm{op}}$   to $\mathrm{Set}$ a _persheaf_. The set of all preshesves together with the natural transformations between them forms a category, called the _category of presheaves on $\mathcal{C}$_ and denoted by $\hat{\mathcal{C}}$. The contravariant version of Yoneda lemma states that 
+In a more modern language, we call a functor $F$ from the opposite category $\mathcal{C}^{\mathrm{op}}$   to $\mathrm{Set}$ a _presheaf_ on $\mathcal{C}$. The set of all preshesves together with the natural transformations between them forms a category, called the category of presheaves on $\mathcal{C}$ and denoted by $\hat{\mathcal{C}}$. The contravariant version of Yoneda lemma states that 
 $$
 \mathrm{Hom}_{\hat{\mathcal{C}}}\left(\mathrm{Hom}(\cdot,A),F\right)\cong F(A).
 $$
