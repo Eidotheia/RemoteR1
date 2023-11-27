@@ -1,7 +1,8 @@
 ---
 title: A Proof of Yoneda Lemma
 date: 2023-7-8 16:30:58
-tags: Category Theory
+tags: 
+Categories: Category Theory  
 ---
 
 
