@@ -1,6 +1,8 @@
 ---
 title: A Dream Longer Than Life
 date: 2022-8-24
+categories: 
+- [痕迹]
 ---
 
 Fatally the question that whether life is worth living was came to an indivisual's childhood, struggling to awaken or fighting for light then became an inevitable part of his existence.
