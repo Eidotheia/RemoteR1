@@ -18,7 +18,7 @@ $$
 $$
 where $S_J$ denotes the intersection $\bigcap_{j\in J}S_j$. In particular, 
 $$
-        Z_Sf(a)&=\sum_{s\in S}\chi_S^a f(s).\\
+    Z_Sf(a)&=\sum_{s\in S}\chi_S^a f(s).
 $$
 
 
@@ -27,7 +27,7 @@ We now study the structure of $\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$ th
 When considering the special case where $S = P$, we simplify the notation by omitting the subscript$\:_P$. For $f$, $g\in\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$, define $f_S\leq g_S$ if $f(s)\leq g(s)$ for all $s\in S$. Notice that $Z_S f$ is also order-preserving. 
 
 
-Lemma 1 If $f_S\leq g_S$, then $Z_S f\geq Z_S g$. 
+__Lemma 1__ If $f_S\leq g_S$, then $Z_S f\geq Z_S g$. 
 
 
 Suppose that $f_S\leq g_S$. If $g_S(x)=k\in [n]$, then $f_S(x)\leq k$. Which means that $g_S^{-1}(k)\subset\bigcup_{i\leq k}f_S^{-1}(i)$. Thus
@@ -50,13 +50,13 @@ $$
 
 Let $C_n$ denote a chain of $n$ elements. Since $\iota$ is an isomorphism between $C_n$ and $[n-1]$, for each $a\in C_n$, we have the following results.
 
-Lemma 2 For every order-preserving map $f:C_n\to [n]$,
+__Lemma 2__ For every order-preserving map $f:C_n\to [n]$,
 $$
 \partial Zf(a)=\left\vert f^{-1}(\iota(a))\right\vert
 $$
 for all $a\in C_n$.
 
-Lemma 3 For every order-preserving map $f:C_n\to [n]$,
+__Lemma 3__ For every order-preserving map $f:C_n\to [n]$,
 $$
 ZZf=f.
 $$
