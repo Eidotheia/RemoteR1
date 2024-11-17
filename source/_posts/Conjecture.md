@@ -64,13 +64,13 @@ $$
 
 Lemma 3 indicates that if $P$ is a chain, then $Z$ is an order-reversing involution on $\mathrm{Hom}_{\mathsf{Pos}}\left(C_n,[n]\right)$ in which the maps are ordered by pointwise comparison. 
 
-Consider the set $\underline{\mathrm{Hom}}_{\mathsf{Pos}}\left(P,[n]\right)$ consist of all order-preserving maps from $P$ to $[n]$ for which 0 has a nonempty preimage, and let $\overline{\mathrm{Hom}}_{\mathsf{Pos}}\left(P,[n]\right)$ be the complement of it in $\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$. It's not hard to show that 
+Consider the set $H_{\ast}\left(P,[n]\right)$ consist of all order-preserving maps from $P$ to $[n]$ for which 0 has a nonempty preimage, and let $H^{\ast}\left(P,[n]\right)$ be the complement of it in $\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$. It's not hard to show that 
 $$
-Z\left(\underline{\mathrm{Hom}}_{\mathsf{Pos}}\left(P,[n]\right)\right)\subset\overline{\mathrm{Hom}}_{\mathsf{Pos}}\left(P,[n]\right)
+Z\left(H_{\ast}\left(P,[n]\right)\right)\subset H^{\ast}\left(P,[n]\right)
 $$
 and
 $$
-Z\left(\overline{\mathrm{Hom}}_{\mathsf{Pos}}\left(P,[n]\right)\right)\subset\underline{\mathrm{Hom}}_{\mathsf{Pos}}\left(P,[n]\right).
+Z\left(H^{\ast}\left(P,[n]\right)\right)\subset H_{\ast}\left(P,[n]\right).
 $$
 
 Thus for any $f\in\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$, if there exists a $t>0$ which is the least integer such that $Z^{t}(f)=f$, then $t$ must be even. 
