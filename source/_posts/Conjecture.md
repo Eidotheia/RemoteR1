@@ -25,6 +25,7 @@ $$
 We now study the structure of $\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$ the set of all order-preserving maps from $P$ to $[n]$.
 
 When considering the special case where $S = P$, we simplify the notation by omitting the subscript$\:_P$. 
+
 For $f$, $g\in\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$, define $f_S\leq g_S$ if $f(s)\leq g(s)$ for all $s\in S$. Notice that $Z_S f$ is also order-preserving. 
 
 
