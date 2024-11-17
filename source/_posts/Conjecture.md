@@ -40,7 +40,7 @@ $$
         &=Z_S f(s)
 \end{aligned}
 $$
-for all $s\in S$. In particular, if $f\leq g$, then $Zf\geq Zg$. $\blacksquare$
+for all $s\in S$. In particular, if $f\leq g$, then $Zf\geq Zg$. $\square$
  
 For each order-preserving map $f$, denote by $\partial f$ the M\"{o}bius inversion of $f$. 
 Since $Zf$ is also an order-preserving map, for all $a\in P$ we have
