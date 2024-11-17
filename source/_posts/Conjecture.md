@@ -62,7 +62,7 @@ $$
 ZZf=f.
 $$
 
-Lemma 3 indicates that if $P$ is a chain, then $Z$ is an order-reversing involution on $\mathrm{Hom}_{\mathsf{Pos}}\left(C_n,[n]\right)$ in which the maps are ordered by pointwise comparison. 
+Lemma 3 indicates that if $P$ is a chain, then $Z$ is an order-reversing involution on $\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$ in which the maps are ordered by pointwise comparison. 
 
 Consider the set $H_{\ast}\left(P,[n]\right)$ consist of all order-preserving maps from $P$ to $[n]$ for which 0 has a nonempty preimage, and let $H^{\ast}\left(P,[n]\right)$ be the complement of it in $\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$. It's not hard to show that 
 $$
