@@ -7,8 +7,7 @@ categories:
 
 Let $P$ be a finite poset of $n$ elements. For each $a\in P$, denote by $\iota_P(a)$ the number of elements in $P$ that are less than $a$. When the context is clear, we will simply write $\iota$ instead of $\iota_P$. 
 
-For each order-preserving map $f$ from $P$ to the chain $[n]\coloneq\{0,1,\ldots,n\}$, 
-let $f_S$ be the restriction of $f$ to $S\subset P$ and let $Z_Sf(a)$ be the number of elements in $S$ whose values under $f$ are less than or equal to $\iota(a)$. Then
+For each order-preserving map $f$ from $P$ to the chain $[n]\coloneq\{0,1,\ldots,n\}$, let $f_S$ be the restriction of $f$ to $S\subset P$ and let $Z_Sf(a)$ be the number of elements in $S$ whose values under $f$ are less than or equal to $\iota(a)$. Then
 $$
     Z_Sf(a)=\sum_{t\leq\iota(a)}\left\vert f_S^{-1}(t)\right\vert.
 $$
@@ -26,21 +25,20 @@ $$
 We now study the structure of $\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$ the set of all order-preserving maps from $P$ to $[n]$.
 
 When considering the special case where $S = P$, we simplify the notation by omitting the subscript$\:_P$. For $f$, $g\in\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$, define $f_S\leq g_S$ if $f(s)\leq g(s)$ for all $s\in S$. Notice that $Z_S f$ is also order-preserving. 
-$$
-\begin{lemma}
-   If $f_S\leq g_S$, then $Z_S f\geq Z_S g$. 
-\end{lemma}
-$$
+
+
+Lemma 1 If $f_S\leq g_S$, then $Z_S f\geq Z_S g$. 
+
 
 Suppose that $f_S\leq g_S$. If $g_S(x)=k\in [n]$, then $f_S(x)\leq k$. Which means that $g_S^{-1}(k)\subset\bigcup_{i\leq k}f_S^{-1}(i)$. Thus
 $$
-\begin{align}
+\begin{aligned}
         Z_S g(s)&=\sum_{i\leq\iota(s)}\left\vert g_S^{-1}(i)\right\vert \\
         &=\left\vert\bigcup_{i\leq\iota(s)}g_S^{-1}(i)\right\vert \\
         &\leq\left\vert\bigcup_{i\leq\iota(s)}\bigcup_{j\leq i}f_S^{-1}(i)\right\vert \\
         &=\left\vert\bigcup_{i\leq\iota(s)}f_S^{-1}(i)\right\vert \\
         &=Z_S f(s)
-\end{align}
+\end{aligned}
 $$
 for all $s\in S$. In particular, if $f\leq g$, then $Zf\geq Zg$. 
  
@@ -52,13 +50,13 @@ $$
 
 Let $C_n$ denote a chain of $n$ elements. Since $\iota$ is an isomorphism between $C_n$ and $[n-1]$, for each $a\in C_n$, we have the following results.
 
-\textbf{Lemma 2} For every order-preserving map $f:C_n\to [n]$,
+Lemma 2 For every order-preserving map $f:C_n\to [n]$,
 $$
 \partial Zf(a)=\left\vert f^{-1}(\iota(a))\right\vert
 $$
 for all $a\in C_n$.
 
-\textbf{Lemma 3} For every order-preserving map $f:C_n\to [n]$,
+Lemma 3 For every order-preserving map $f:C_n\to [n]$,
 $$
 ZZf=f.
 $$
