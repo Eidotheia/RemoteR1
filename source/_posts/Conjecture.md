@@ -24,7 +24,8 @@ $$
 
 We now study the structure of $\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$ the set of all order-preserving maps from $P$ to $[n]$.
 
-When considering the special case where $S = P$, we simplify the notation by omitting the subscript$\:_P$. For $f$, $g\in\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$, define $f_S\leq g_S$ if $f(s)\leq g(s)$ for all $s\in S$. Notice that $Z_S f$ is also order-preserving. 
+When considering the special case where $S = P$, we simplify the notation by omitting the subscript$\:_P$. 
+For $f$, $g\in\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$, define $f_S\leq g_S$ if $f(s)\leq g(s)$ for all $s\in S$. Notice that $Z_S f$ is also order-preserving. 
 
 
 __Lemma 1__ If $f_S\leq g_S$, then $Z_S f\geq Z_S g$. 
@@ -42,8 +43,7 @@ $$
 $$
 for all $s\in S$. In particular, if $f\leq g$, then $Zf\geq Zg$. $\square$
  
-For each order-preserving map $f$, denote by $\partial f$ the Möbius inversion of $f$. 
-Since $Zf$ is also an order-preserving map, for all $a\in P$ we have
+For each order-preserving map $f$, denote by $\partial f$ the Möbius inversion of $f$. Since $Zf$ is also an order-preserving map, for all $a\in P$ we have
 $$
     Zf(a)=\sum_{b\leq a}\partial Zf(b).
 $$
