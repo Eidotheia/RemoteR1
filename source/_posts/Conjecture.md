@@ -18,7 +18,7 @@ $$
 $$
 where $S_J$ denotes the intersection $\bigcap_{j\in J}S_j$. In particular, 
 $$
-    Z_Sf(a)&=\sum_{s\in S}\chi_S^a f(s).
+    Z_Sf(a)=\sum_{s\in S}\chi_S^a f(s).
 $$
 
 
