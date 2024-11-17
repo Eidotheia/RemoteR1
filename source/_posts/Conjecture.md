@@ -30,7 +30,7 @@ When considering the special case where $S = P$, we simplify the notation by omi
 __Lemma 1__ If $f_S\leq g_S$, then $Z_S f\geq Z_S g$. 
 
 
-Suppose that $f_S\leq g_S$. If $g_S(x)=k\in [n]$, then $f_S(x)\leq k$. Which means that $g_S^{-1}(k)\subset\bigcup_{i\leq k}f_S^{-1}(i)$. Thus
+_Proof_ Suppose that $f_S\leq g_S$. If $g_S(x)=k\in [n]$, then $f_S(x)\leq k$. Which means that $g_S^{-1}(k)\subset\bigcup_{i\leq k}f_S^{-1}(i)$. Thus
 $$
 \begin{aligned}
         Z_S g(s)&=\sum_{i\leq\iota(s)}\left\vert g_S^{-1}(i)\right\vert \\
@@ -40,7 +40,7 @@ $$
         &=Z_S f(s)
 \end{aligned}
 $$
-for all $s\in S$. In particular, if $f\leq g$, then $Zf\geq Zg$. 
+for all $s\in S$. In particular, if $f\leq g$, then $Zf\geq Zg$. $\blacksquare$
  
 For each order-preserving map $f$, denote by $\partial f$ the M\"{o}bius inversion of $f$. 
 Since $Zf$ is also an order-preserving map, for all $a\in P$ we have
