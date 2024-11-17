@@ -11,37 +11,30 @@ For each order-preserving map $f$ from $P$ to the chain $[n]\coloneq\{0,1,\ldots
 let $f_S$ be the restriction of $f$ to $S\subset P$ and let $Z_Sf(a)$ be the number of elements in $S$ whose values under $f$ are less than or equal to $\iota(a)$.  
 Then
 $$
-\begin{equation*}
+\begin{equation}
     Z_Sf(a)=\sum_{t\leq\iota(a)}\left\vert f_S^{-1}(t)\right\vert.
-\end{equation*} 
+\end{equation} 
 $$
 
-For convenience, let $\chi_S^a f$ be the characteristic function such that for any $x\in P$, $\chi_S^a f(x)=1$ if $x\in f_S^{-1}\left([\iota(a)]\right)$ and $=0$ if not. 
-And for $X\subset P$ let $\chi_S^a f(X)=\prod_{x\in X}\chi_S^a f(x)$.   
-By definition, $Z_Sf(a)$ is just the size of the preimage of $[\iota(a)]$ under $f_S$. 
-Covering $S$ by a finite collection $\{S_i\}_{i\in I}$, then
+For convenience, let $\chi_S^a f$ be the characteristic function such that for any $x\in P$, $\chi_S^a f(x)=1$ if $x\in f_S^{-1}\left([\iota(a)]\right)$ and $=0$ if not. And for $X\subset P$ let $\chi_S^a f(X)=\prod_{x\in X}\chi_S^a f(x)$. By definition, $Z_Sf(a)$ is just the size of the preimage of $[\iota(a)]$ under $f_S$. Covering $S$ by a finite collection $\{S_i\}_{i\in I}$, then
 $$
-\begin{equation*}
+\begin{equation}
     \sum_{J\subset I}{(-1)}^{\vert J\vert}Z_{S_J}f(a)=0,
-\end{equation*} 
+\end{equation} 
 $$
-where $S_J$ denotes the intersection $\bigcap_{j\in J}S_j$. 
-In particular, 
+where $S_J$ denotes the intersection $\bigcap_{j\in J}S_j$. In particular, 
 $$
-\begin{equation*}
+\begin{equation}
     \begin{split}
         Z_Sf(a)&=\sum_{s\in S}\chi_S^a f(s).\\
     \end{split}
-\end{equation*}
+\end{equation}
 $$
 
 
 We now study the structure of $\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$ the set of all order-preserving maps from $P$ to $[n]$.
 
-When considering the special case where $S = P$, we simplify the notation by omitting the subscript$\:_P$.  
-For $f$, $g\in\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$, 
-define $f_S\leq g_S$ if $f(s)\leq g(s)$ for all $s\in S$. 
-Notice that $Z_S f$ is also order-preserving. 
+When considering the special case where $S = P$, we simplify the notation by omitting the subscript$\:_P$. For $f$, $g\in\mathrm{Hom}_{\mathsf{Pos}}\left(P,[n]\right)$, define $f_S\leq g_S$ if $f(s)\leq g(s)$ for all $s\in S$. Notice that $Z_S f$ is also order-preserving. 
 \begin{lemma}
    If $f_S\leq g_S$, then $Z_S f\geq Z_S g$. 
 \end{lemma}
