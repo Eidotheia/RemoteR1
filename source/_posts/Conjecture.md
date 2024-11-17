@@ -7,7 +7,7 @@ categories:
 
 Let $P$ be a finite poset of $n$ elements. For each $a\in P$, denote by $\iota_P(a)$ the number of elements in $P$ that are less than $a$. When the context is clear, we will simply write $\iota$ instead of $\iota_P$. 
 
-For each order-preserving map $f$ from $P$ to the chain $[n]\coloneq\{0,1,\ldots,n\}$, let $f_S$ be the restriction of $f$ to $S\subset P$ and let $Z_Sf(a)$ be the number of elements in $S$ whose values under $f$ are less than or equal to $\iota(a)$. Then
+For each order-preserving map $f$ from $P$ to the chain $[n]:=\{0,1,\ldots,n\}$, let $f_S$ be the restriction of $f$ to $S\subset P$ and let $Z_Sf(a)$ be the number of elements in $S$ whose values under $f$ are less than or equal to $\iota(a)$. Then
 $$
     Z_Sf(a)=\sum_{t\leq\iota(a)}\left\vert f_S^{-1}(t)\right\vert.
 $$
