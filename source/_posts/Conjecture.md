@@ -42,7 +42,7 @@ $$
 $$
 for all $s\in S$. In particular, if $f\leq g$, then $Zf\geq Zg$. $\square$
  
-For each order-preserving map $f$, denote by $\partial f$ the M\"{o}bius inversion of $f$. 
+For each order-preserving map $f$, denote by $\partial f$ the Möbius inversion of $f$. 
 Since $Zf$ is also an order-preserving map, for all $a\in P$ we have
 $$
     Zf(a)=\sum_{b\leq a}\partial Zf(b).
